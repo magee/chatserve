@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    padding: 0 25px;
+    background-color: black;
+    color: white;
+}
+.rooms {
+    position: relative;
+    float: left;
+    background-color: white;
+    height: 300px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 80px;
+    color: black;
+}
+.rooms h1 {
+    font-size: 18pt;
+    margin: 5px auto;
+}
+.rooms h2 {
+    text-align: left;
+    font-size: 8pt;
+    padding: 0 2px;
+    margin: 0;
+}
+.rooms li {
+}
+.newRoom {
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.roomBox {
+    width: 120px;
+    font-size: 8pt;
+    padding: 2px;
+}
+.friends {
+}
+.main {
+    float: left;
+    width: 600px;
+    height: 700px;
+    margin-left: 30px;
+    text-align: left;
+    background: white;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+    color: black;
+}
+.main h1 {
+    margin-top: 0;
+    font-size: 35px;
+}
+.main ul {
+    padding-left: 20px;
+}
+.main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+.main .success {
+    margin-top: 25px;
+}
+.main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+.sendArea {
+    margin: 40px 0;
+    width: 700px;
+}
+.sendBox {
+    width: 520px;
+    height: 50px;
+    border-radius: 3px;
+}
+.sendButton {
+    color: white;
+    background-color: #2C77BA;
+    width: 56px;
+    height: 56px;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.message {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin: 5px 0;
+    font-size: 10pt;
+}
+.user {
+    padding: 0 5px 0 0;
+    color: blue;
+    font-style: italic;
+    font-size: 12pt;
+}
+.user .friend {
+    color: red;
+    font-weight: bold;
+}
+.msg {
+    padding: 0 50px;
+}
+.time {
+    text-align: right;
+}
