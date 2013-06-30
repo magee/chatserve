@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'fs' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose read json /Users/Catalyst/code/magee/chat-server/package.json
+5 verbose read json /Users/Catalyst/code/magee/chat-server/package.json
+6 verbose cache add [ 'fs', null ]
+7 silly cache add name=undefined spec="fs" args=["fs",null]
+8 verbose parsed url { pathname: 'fs', path: 'fs', href: 'fs' }
+9 silly lockFile 3f4bb586-fs fs
+10 verbose lock fs /Users/Catalyst/.npm/3f4bb586-fs.lock
+11 silly lockFile 3f4bb586-fs fs
+12 verbose addNamed [ 'fs', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile a107b96b-fs fs@
+15 verbose lock fs@ /Users/Catalyst/.npm/a107b96b-fs.lock
+16 silly addNameRange { name: 'fs', range: '', hasData: false }
+17 verbose url raw fs
+18 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+19 verbose url resolved https://registry.npmjs.org/fs
+20 info trying registry request attempt 1 at 11:42:23
+21 http GET https://registry.npmjs.org/fs
+22 http 404 https://registry.npmjs.org/fs
+23 silly registry.get cb [ 404,
+23 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+23 silly registry.get     date: 'Mon, 01 Apr 2013 18:42:24 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'cache-control': 'must-revalidate' } ]
+24 silly lockFile a107b96b-fs fs@
+25 error 404 'fs' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 12.2.1
+27 error command "node" "/usr/local/bin/npm" "install" "fs"
+28 error cwd /Users/Catalyst/code/magee/chat-server
+29 error node -v v0.8.14
+30 error npm -v 1.1.65
+31 error code E404
+32 verbose exit [ 1, true ]
